@@ -1,0 +1,29 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: #4a88f4;
+    color: white;
+    font-size: 30px;
+}
+
+/*Posicionamiento relativo,-Posiciona la caja 
+en cualquier lugar dejando su espacio y nadie puede ocupar ese espeacion
+Posicionamiento absoluto,- Si utilizamos el posicionamiento absoluto el componente se va a desplazar pero 
+su lugar es ocupado por otro componente*/
+.cja{
+    /*El elemento fixed hace que un elemento se quede fijo en la poscion que le dejamos, sin importar si luego movemos la pagina*/
+    position: fixed;
+    /*Siempre se tendran enstos 4 atributos para posicionar algo*/
+    /*Las medidas absolutas si funcionan mientras que las relativas no funcionan en este caso*/
+    top: 0;
+    bottom:0;
+    left: 0;
+    right:0;
+}
+.cja_padre{
+    width: 500px;
+    height: 500px;
+    background: black;
+    /*su espacion no se vera o
+    position: relative*/
+}
